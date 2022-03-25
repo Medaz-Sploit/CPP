@@ -1,0 +1,5 @@
+/usr/bin/make -C /Users/medazsploit/Desktop/CPP/CPP_01/ex00 --dry-run --keep-going --print-directory
+make: Entering directory `/Users/medazsploit/Desktop/CPP/CPP_01/ex00'
+c++ -Wall -Wextra -Werror -std=c++98 Zombie.o newZombie.o randomChump.o main.o -o Zombie
+make: Leaving directory `/Users/medazsploit/Desktop/CPP/CPP_01/ex00'
+ 
