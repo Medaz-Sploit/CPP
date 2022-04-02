@@ -6,7 +6,7 @@
 #    By: mazoukni <mazoukni@student.1337.ma>        +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/03/29 13:01:26 by mazoukni          #+#    #+#              #
-#    Updated: 2022/03/29 14:13:44 by mazoukni         ###   ########.fr        #
+#    Updated: 2022/04/02 00:19:39 by mazoukni         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -14,7 +14,7 @@
 NAME = Brain
 CC = c++
 FLAGS = -Wall -Wextra -Werror -std=c++98
-SRC = Dog.cpp main.cpp Cat.cpp Animal.cpp Brain.cpp
+SRC = Dog.cpp main.cpp Cat.cpp Animal.cpp Brain.cpp WrongAnimal.cpp WrongCat.cpp
 OBJ = $(SRC:.cpp=.o)
 
 %.o %.cpp:

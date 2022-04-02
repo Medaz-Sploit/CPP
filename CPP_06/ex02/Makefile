@@ -5,16 +5,16 @@
 #                                                     +:+ +:+         +:+      #
 #    By: mazoukni <mazoukni@student.1337.ma>        +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2022/03/29 13:01:26 by mazoukni          #+#    #+#              #
-#    Updated: 2022/04/02 00:19:45 by mazoukni         ###   ########.fr        #
+#    Created: 2022/04/02 04:41:29 by mazoukni          #+#    #+#              #
+#    Updated: 2022/04/02 04:42:09 by mazoukni         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 .PHONY: all re fclean clean
-NAME = Abstract
+NAME = Base
 CC = c++
 FLAGS = -Wall -Wextra -Werror -std=c++98
-SRC = Dog.cpp main.cpp Cat.cpp Animal.cpp Brain.cpp WrongAnimal.cpp WrongCat.cpp
+SRC = main.cpp Base.cpp
 OBJ = $(SRC:.cpp=.o)
 
 %.o %.cpp:

@@ -1,9 +1,20 @@
-/usr/bin/make -C /Users/medazsploit/Desktop/CPP/CPP_01/ex00 --dry-run --keep-going --print-directory
+/usr/bin/make -C /Users/medazsploit/Desktop/CPP/CPP_01/ex00 --dry-run --always-make --keep-going --print-directory
 make: Entering directory `/Users/medazsploit/Desktop/CPP/CPP_01/ex00'
+c++ -Wall -Wextra -Werror -std=c++98 -c Zombie.cpp newZombie.cpp randomChump.cpp main.cpp
+ 
+c++   Makefile.o   -o Makefile
+ 
+clang: error: no such file or directory: 'Makefile.o'
+clang: error: no input files
+
+make: *** [Makefile] Error 1
+make: Failed to remake makefile `Makefile'.
+
 c++ -Wall -Wextra -Werror -std=c++98 -c Zombie.cpp newZombie.cpp randomChump.cpp main.cpp
 c++ -Wall -Wextra -Werror -std=c++98 -c Zombie.cpp newZombie.cpp randomChump.cpp main.cpp
 c++ -Wall -Wextra -Werror -std=c++98 -c Zombie.cpp newZombie.cpp randomChump.cpp main.cpp
 c++ -Wall -Wextra -Werror -std=c++98 -c Zombie.cpp newZombie.cpp randomChump.cpp main.cpp
 c++ -Wall -Wextra -Werror -std=c++98 Zombie.o newZombie.o randomChump.o main.o -o Zombie
+rm Makefile.o
 make: Leaving directory `/Users/medazsploit/Desktop/CPP/CPP_01/ex00'
  

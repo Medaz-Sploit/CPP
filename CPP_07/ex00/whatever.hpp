@@ -1,0 +1,37 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   whatever.hpp                                       :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: mazoukni <mazoukni@student.1337.ma>        +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2022/04/02 04:49:40 by mazoukni          #+#    #+#             */
+/*   Updated: 2022/04/02 04:49:41 by mazoukni         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
+#ifndef WHATEVER_H
+#define WHATEVER_H
+
+#include <iostream>
+
+template< typename T>
+void	swap(T & a, T & b) {
+	T	tmp;
+
+	tmp = a;
+	a = b;
+	b = tmp;
+}
+
+template< typename T>
+T const &    	min(T const & a, T const & b) {
+	return ((a < b) ? a : b);
+}
+
+template< typename T>
+T const &    	max(T const & a, T const & b) {
+	return ((a > b) ? a : b);
+}
+
+#endif
